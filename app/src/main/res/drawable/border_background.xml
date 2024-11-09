@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background com a cor da borda -->
+    <item>
+        <shape>
+            <solid android:color="#000000"/> <!-- Cor da borda -->
+        </shape>
+    </item>
+
+    <!-- O conteúdo do LinearLayout (por baixo da borda) -->
+    <item android:top="2dp" android:left="2dp" android:right="2dp" android:bottom="2dp">
+        <shape>
+            <solid android:color="#FFFFFF"/> <!-- Cor de fundo do LinearLayout -->
+        </shape>
+    </item>
+</layer-list>
